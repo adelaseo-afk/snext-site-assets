@@ -1,0 +1,103 @@
+
+:root{--rule:rgba(34,30,31,.24)!important;--rule-soft:rgba(34,30,31,.14)!important;--accent:#00B3E3!important;--acc:#00B3E3!important;}
+html body .hero-display em,html body .section-title em,html body .final-display em,html body .final .final-display em,html body .sn-root-content .final .final-display em,html body .sn-pf-display em,html body .sn-pf-final-display em,html body .sn-pf-final .sn-pf-final-display em,html body .focus-arrow{color:#00B3E3!important;}
+html body .section-eyebrow .dot,html body .qbadge .dot{background:#00B3E3!important;}
+html body .sn-root-nav .sn-logo img,html body .nav img{height:28px!important;width:auto!important;transition:none!important;}
+@media(max-width:900px){html body .sn-root-nav .sn-logo img,html body .nav img{height:24px!important;}}
+.sn-root-nav .sn-nav-links a{font-family:'JetBrains Mono',monospace!important;font-weight:500!important;text-transform:uppercase!important;letter-spacing:.09em!important;font-size:13px!important;transition:color .15s!important;}
+html body .sn-root-nav .sn-nav-links a:hover{color:#00B3E3!important;}
+.sn-root-nav .sn-nav-cta{display:none!important;}
+.sn-nav-social{display:flex;gap:8px;align-items:center;}
+.sn-nav-social a{display:inline-flex!important;align-items:center!important;justify-content:center!important;width:32px;height:32px;padding:0;line-height:0;border-radius:50%;border:1px solid rgba(34,30,31,.24);color:#46474F;text-decoration:none;transition:color .18s,border-color .18s,background .18s;}
+.sn-nav-social a svg{display:block;width:13px;height:13px;fill:currentColor;}
+.sn-nav-social a[aria-label="LinkedIn"]:hover{background:#00B3E3;border-color:#00B3E3;color:#fff;}
+.sn-nav-social a[aria-label="X"]:hover{background:#221E1F;border-color:#221E1F;color:#fff;}
+.nav.w-embed{display:none!important;}
+body > .sn-root-nav{position:sticky!important;top:0!important;z-index:9999!important;}
+html body .shell,html body .sn-root-nav .shell,#snpf,#snbl,#snba,.sn-gf-inner,.sn-pf-shell,.page-hero,.sn-team .t-hero,.sn-team .t-tabs,.sn-team .t-section{max-width:min(2200px,100%)!important;}
+html body #snbl{padding-left:var(--container-pad)!important;padding-right:var(--container-pad)!important;}
+.footer.w-embed{display:none!important;}
+body footer:not(.sn-gfooter){display:none!important;}
+.cta-panel,.cta-panel-founder{display:none!important;}
+.sn-team .t-sub,.sn-contact .c-sub,html body .page-sub{font-size:clamp(17px,1.5vw,21px)!important;line-height:1.45!important;}
+html body .page-sub{max-width:680px!important;}
+html body .sn-pf-sub{font-size:clamp(17px,1.5vw,21px)!important;line-height:1.5!important;margin-top:24px!important;}
+html body .sn-pf-stats{margin-top:40px!important;padding-top:44px!important;}
+html body .sn-team .t-sub{margin-top:20px!important;}
+html body .sn-root-content .hero{min-height:100vh!important;min-height:100svh!important;display:flex!important;flex-direction:column;padding-top:32px!important;padding-bottom:48px!important;position:relative!important;}
+html body .sn-root-content .hero > .shell{display:flex!important;flex-direction:column;flex:1;width:100%;position:relative;z-index:1;}
+html body .sn-root-content .hero .hero-meta{margin-top:0!important;}
+html body .sn-root-content .hero-display{font-size:clamp(56px,13.2vw,210px)!important;}
+html body .sn-team .t-headline,html body .sn-pf-display,html body .page-headline{font-size:clamp(56px,10.8vw,144px)!important;}
+html body .sn-root-content .hero-q2{font-family:'Samsungone 300 V 1',sans-serif!important;font-weight:300!important;font-size:clamp(17px,1.5vw,21px)!important;letter-spacing:0!important;max-width:920px!important;line-height:1.75!important;color:#46474F!important;}
+html body button.sn-chip{display:inline-flex!important;align-items:center!important;justify-content:center!important;min-width:64px;font-family:'JetBrains Mono',monospace!important;font-size:.62em!important;letter-spacing:.06em!important;text-transform:uppercase!important;font-weight:500!important;color:#46474F!important;background:transparent!important;border:1px solid rgba(34,30,31,.38)!important;border-radius:999px!important;padding:6px 16px!important;margin:0 4px!important;cursor:pointer!important;box-shadow:none!important;transition:background .15s,color .15s,border-color .15s,transform .15s!important;vertical-align:middle!important;position:relative;top:-2px;}
+html body button.sn-chip:hover{border-color:#00B3E3!important;color:#00B3E3!important;transform:translateY(-1px);}
+html body button.sn-chip.on{background:#00B3E3!important;color:#fff!important;border-color:#00B3E3!important;}
+@media(max-width:760px){
+ html body .sn-root-content .hero{min-height:0!important;padding-top:88px!important;padding-bottom:12px!important;}
+ html body .sn-root-content .hero-display{font-size:clamp(68px,20.5vw,128px)!important;}
+ html body .sn-root-content .hero-q2{margin-top:24px!important;}
+ html body .sn-root-content .hero .hero-meta{margin-top:12px!important;}
+ .sn-hero-acts{margin-top:36px!important;margin-bottom:52px!important;padding:0!important;}
+ html body .sn-marq{margin-top:56px!important;}
+ html body .sn-team .t-hero,html body .sn-pf-hero,html body .page-hero{padding-top:36px!important;}
+ html body .sn-team .t-headline{font-size:clamp(52px,16.5vw,100px)!important;}
+ html body .sn-pf-display{font-size:clamp(44px,14vw,84px)!important;}
+ html body .page-headline{font-size:clamp(48px,15.5vw,88px)!important;}
+ html body .t-headline,html body .page-headline,html body .sn-pf-display{margin-top:0!important;}
+ .t-eyebrow,.page-eyebrow,.sn-pf-meta{display:block;margin-top:28px!important;margin-bottom:14px!important;}
+ html body .sn-team .t-sub,html body .page-sub,html body .sn-pf-sub,html body .sn-root-content .hero-q2{font-size:15px!important;text-wrap:pretty;}
+ html body .sn-team .t-grid{gap:12px!important;background:transparent!important;border:none!important;}
+ html body #snbl .snbl-card{grid-template-columns:1fr!important;}
+ html body #snbl .snbl-meta{text-align:left!important;}
+ html body .sn-nav-social{display:none!important;}
+}
+@media(max-width:600px){html body button.sn-chip{margin:5px 8px 5px 0!important;padding:5px 12px!important;}html body .sn-root-content .hero-q2{line-height:2!important;}}
+.sn-hero-acts{margin:auto 0;padding:72px 0;}
+html body .sn-root-content button,html body .sn-hero-cta,html body .final .btn-primary,html body .final .btn-ghost,html body .sn-pf-btn,html body .snpf-tab,html body .snbl-tab,html body .snba-btn,html body .snba-all{font-family:'JetBrains Mono',monospace!important;}
+html body .snbl-tabs .snbl-tab{min-width:64px!important;text-align:center!important;}
+.section:has(#sn-sector-tabs){display:none!important;}
+.section:has(.focus-grid){overflow:hidden;}
+.section:has(.focus-grid) .focus-cell{cursor:pointer;}
+.section:has(.focus-grid)::before{content:'';position:absolute;inset:-10%;background:radial-gradient(50% 60% at 18% 24%,rgba(0,179,227,.30),transparent 65%),radial-gradient(46% 56% at 82% 76%,rgba(0,90,255,.24),transparent 68%);filter:blur(44px);pointer-events:none;}
+.section:has(.focus-grid)::after{content:'';position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.45),rgba(0,0,0,.2) 50%,rgba(0,0,0,.62));pointer-events:none;}
+.section:has(.focus-grid) .shell{position:relative;z-index:2;}
+.hero-meta,.hero-meta span,.sn-pf-meta,.page-eyebrow,.t-eyebrow{font-family:'JetBrains Mono',monospace!important;font-size:11px!important;letter-spacing:.06em!important;text-transform:uppercase!important;color:#5A5B63!important;font-weight:500!important;}
+.hero-eyebrow,.hero-stat .cap,.sn-team .t-role{color:#5A5B63!important;}
+.utility-wrapper,.utility-wrapper *{font-family:'Samsungone 400 V 1',sans-serif!important;color:#221E1F!important;}
+.utility-content h1,.utility-content h2{font-family:'Samsungsharpsans',sans-serif!important;font-weight:700!important;letter-spacing:-.03em!important;}
+.utility-wrapper .text-mono{font-family:'JetBrains Mono',monospace!important;letter-spacing:.04em!important;}
+.sn-top{position:fixed;right:22px;bottom:22px;z-index:9998;width:44px;height:44px;border-radius:50%;background:#221E1F;color:#FFFFFF;display:flex;align-items:center;justify-content:center;font-family:'JetBrains Mono',monospace;font-size:16px;cursor:pointer;border:0;opacity:0;visibility:hidden;transform:translateY(8px);transition:all .25s;}
+.sn-top.show{opacity:1;visibility:visible;transform:none;}
+.sn-top:hover{background:#00B3E3;}
+.sn-mbtn{display:none;position:fixed;top:12px;right:14px;z-index:10002;width:40px;height:40px;border-radius:10px;border:1px solid rgba(34,30,31,.2);background:#FFFFFF;color:#221E1F;align-items:center;justify-content:center;cursor:pointer;font-size:20px;line-height:1;font-family:'JetBrains Mono',monospace;}
+@media(max-width:900px){.sn-mbtn{display:flex;}}
+.sn-mnav{position:fixed;inset:0;background:#FFFFFF;z-index:10001;display:none;flex-direction:column;justify-content:center;align-items:flex-end;text-align:right;padding:36px;gap:6px;}
+.sn-mnav.open{display:flex;}
+.sn-mnav a{font-family:'Samsungsharpsans','SamsungSharpSans',sans-serif;font-weight:700;font-size:36px;color:#221E1F;text-decoration:none;padding:10px 0;letter-spacing:-.02em;}
+.sn-mnav .sn-mnav-logo{position:absolute;top:20px;left:24px;line-height:0;padding:0;}
+.sn-mnav .sn-mnav-social{display:flex;gap:12px;margin-top:28px;justify-content:flex-end;}
+.sn-mnav .sn-mnav-social a{display:inline-flex;align-items:center;justify-content:center;width:46px;height:46px;border:1px solid rgba(34,30,31,.24);border-radius:50%;color:#46474F;padding:0;}
+.sn-mnav .sn-mnav-social a svg{width:17px;height:17px;fill:currentColor;}
+.sn-mnav .sn-mnav-meta{margin-top:26px;font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.08em;color:#797A82;text-transform:uppercase;}
+.sn-gfooter{background:#FFFFFF;border-top:1px solid rgba(34,30,31,.2);color:#221E1F;font-family:'Samsungone 400 V 1',sans-serif;}
+.sn-gf-inner{max-width:1440px;margin:0 auto;padding:72px 32px 40px;}
+.sn-gf-top{display:grid;grid-template-columns:minmax(0,1fr) auto auto auto;column-gap:200px;row-gap:40px;}
+.sn-gf-logo img{height:26px;width:auto;display:block;margin-bottom:18px;}
+.sn-gf-tag{font-family:'Samsungone 400 V 1',sans-serif!important;font-size:14px;line-height:1.6;color:#46474F;max-width:400px;margin:0 0 20px;}
+.sn-gf-social{display:flex;gap:10px;}
+.sn-gf-social a{display:inline-flex!important;align-items:center!important;justify-content:center!important;width:34px;height:34px;padding:0;line-height:0;border-radius:50%;border:1px solid rgba(34,30,31,.24);color:#46474F;text-decoration:none;transition:color .18s,border-color .18s,background .18s;}
+.sn-gf-social a svg{display:block;width:14px;height:14px;fill:currentColor;}
+.sn-gf-social a[aria-label="LinkedIn"]:hover{background:#00B3E3;border-color:#00B3E3;color:#fff;}
+.sn-gf-social a[aria-label="X"]:hover{background:#221E1F;border-color:#221E1F;color:#fff;}
+@media(max-width:1200px){.sn-gf-top{column-gap:104px;}}
+.sn-gf-col h4{font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:#797A82;margin:0 0 16px;font-weight:500;}
+.sn-gf-col a{display:block;font-size:14px;color:#221E1F;text-decoration:none;margin-bottom:10px;transition:color .15s;font-family:'Samsungone 400 V 1',sans-serif;}
+.sn-gf-col a:hover{color:#00B3E3;}
+.sn-gf-bottom{display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap;margin-top:48px;padding-top:20px;border-top:1px solid rgba(34,30,31,.16);font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:#797A82;}
+.sn-gf-legal{display:flex;gap:0;flex-wrap:wrap;}
+.sn-gf-legal a{color:#797A82;text-decoration:none;}
+.sn-gf-legal a:hover{color:#221E1F;}
+.sn-gf-legal a+a::before{content:'//';margin:0 10px;color:#C4C5CB;}
+@media(max-width:900px){.sn-gf-top{grid-template-columns:1fr 1fr;gap:32px;}.sn-gf-inner{padding:56px 24px 32px;}}
+@media(max-width:560px){.sn-gf-top{grid-template-columns:1fr;}}
